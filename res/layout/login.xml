@@ -1,0 +1,164 @@
+<!-- <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+	<RelativeLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginBottom="30dp">
+	
+	    <TextView
+	        android:id="@+id/login_msg"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:textSize="20sp"
+	        android:gravity="center"
+	        android:layout_marginTop="40dp"
+	        android:layout_marginBottom="20dp"
+	        android:textColor="@color/success"
+	        android:text="@string/login_msg"
+	        android:layout_alignLeft="@+id/login_account"
+	        android:layout_alignRight="@id/login_account" />
+	    
+	    <EditText
+	        android:id="@+id/login_account"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_margin="5dp"
+	        android:inputType="textCapSentences"
+	        android:singleLine="true"
+	        android:paddingLeft="55dp"
+	        android:layout_below="@id/login_msg"
+	        android:saveEnabled="true" />
+	
+	    <TextView
+	        android:id="@+id/hint_account"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignBottom="@id/login_account"
+	        android:layout_alignLeft="@id/login_account"
+	        android:layout_alignTop="@id/login_account"
+	        android:gravity="center_vertical"
+	        android:layout_marginRight="15dp"
+	        android:paddingLeft="10dp"
+	        android:paddingRight="10dp"
+	        android:textSize="18sp"
+	        android:text="@string/username" />
+	
+	    <EditText
+	        android:id="@+id/login_password"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_alignLeft="@id/login_account"
+	        android:layout_alignRight="@id/login_account"
+	        android:layout_below="@id/login_account"
+	        android:paddingLeft="55dp"
+	        android:inputType="textPassword"
+	        android:singleLine="true"
+	        android:saveEnabled="true" />
+	
+	    <TextView
+	        android:id="@+id/hint_password"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignBottom="@id/login_password"
+	        android:layout_alignLeft="@id/hint_account"
+	        android:layout_alignTop="@id/login_password"
+	        android:gravity="center_vertical"
+	        android:paddingLeft="10dp"
+	        android:paddingRight="10dp"
+	        android:textSize="18sp"
+	        android:text="@string/password" />
+	    
+	    <Button
+	        android:id="@+id/login_button"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@id/login_password"
+	        android:layout_alignLeft="@id/login_account"
+	        android:layout_alignRight="@id/login_account"
+	        android:background="@drawable/button"
+	        android:textColor="#fff"
+	        android:textSize="22sp"
+	        android:layout_marginTop="20dp"
+	        android:text="@string/submit" />
+	    
+	    <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/copyright"
+	        android:layout_marginRight="5dp"
+	        android:layout_marginBottom="5dp"
+	        android:textSize="13sp"
+	        android:textColor="@color/info"
+	        android:layout_alignParentRight="true"
+	        android:layout_alignParentBottom="true" />
+	
+	</RelativeLayout>
+</ScrollView> -->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    
+    <RelativeLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_margin="20dp">
+	    
+	    <TextView
+	        android:id="@+id/login_msg"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:textSize="20sp"
+	        android:gravity="center"
+	        android:layout_marginTop="40dp"
+	        android:layout_marginBottom="20dp"
+	        android:textColor="@color/success"
+	        android:text="@string/login_msg" />
+	    
+	    <EditText
+	        android:id="@+id/login_account"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:inputType="textCapSentences"
+	        android:singleLine="true"
+	        android:layout_marginBottom="10dp"
+	        android:layout_below="@id/login_msg"
+	        android:hint="@string/username"
+	        android:saveEnabled="true" />
+	    
+	    <EditText
+	        android:id="@+id/login_password"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@id/login_account"
+	        android:layout_marginBottom="30dp"
+	        android:inputType="textPassword"
+	        android:hint="@string/password"
+	        android:singleLine="true"
+	        android:saveEnabled="true" />
+	    
+	    <Button
+	        android:id="@+id/login_button"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@id/login_password"
+	        android:background="@drawable/button"
+	        android:textColor="#fff"
+	        android:textSize="22sp"
+	        android:text="@string/submit" />
+	    
+	    <TextView
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/copyright"
+	        android:layout_marginRight="5dp"
+	        android:layout_marginBottom="5dp"
+	        android:layout_marginTop="40dp"
+	        android:textSize="13sp"
+	        android:gravity="center_horizontal"
+	        android:layout_below="@id/login_button"
+	        android:layout_alignParentBottom="true"
+	        android:textColor="@color/muted" />
+	</RelativeLayout>
+    
+</ScrollView>

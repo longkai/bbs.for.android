@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/powers"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/metro_button4"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="2dp"
+                android:textColor="@color/white"
+                android:text="@string/current_and_max_power" />
+
+            <Button
+                android:id="@+id/sex_and_qq"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/metro_button3"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="2dp"
+                android:textColor="@color/white"
+                android:text="@string/sex_and_qq" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/desc"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:textSize="15sp"
+            android:background="@drawable/metro_button5"
+            android:textColor="@color/white"
+            android:layout_margin="5dp"
+            android:text="@string/desc" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/exp_and_xdb"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/metro_button"
+                android:textColor="#fff"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="5dp"
+                android:text="@string/exp_and_xdb" />
+
+            <Button
+                android:id="@+id/nick"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginLeft="2dp"
+                android:background="@drawable/metro_button2"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="5dp"
+                android:textColor="@color/white"
+                android:text="@string/nick" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/title_and_register_time"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/metro_button6"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="5dp"
+                android:textColor="@color/white"
+                android:text="@string/title_and_register_time" />
+
+            <Button
+                android:id="@+id/statistics"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:background="@drawable/metro_button8"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="5dp"
+                android:textColor="@color/white"
+                android:text="@string/statistics" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/icon"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:src="@drawable/face"
+                android:text="Button" />
+
+            <Button
+                android:id="@+id/honors"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:background="@drawable/metro_button7"
+                android:layout_weight="1"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginBottom="5dp"
+                android:textColor="@color/white"
+                android:text="@string/honors" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

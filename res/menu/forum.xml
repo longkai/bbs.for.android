@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+	<item
+	    android:id="@+id/new_topic"
+	    android:icon="@drawable/content_edit"
+	    android:showAsAction="always"
+	    android:title="发表新帖子！" />
+    
+</menu>

@@ -2,7 +2,75 @@
 <resources>
 
     <string name="app_name">雨无声论坛</string>
+    <string name="copyright">© 2001&#8211;2013 newgxu.cn All Rights Reserved</string>
     <string name="hello_world">Hello world!</string>
+    <string name="from">来自android客户端</string>
     <string name="menu_settings">Settings</string>
-
+    
+    <string name="login_msg">亲，欢迎来到雨无声社区论坛！</string>
+    <string name="username">请输入您的账号</string>
+    <string name="password">请输入您的密码</string>
+    <string name="submit">登陆</string>
+    
+    <string name="forum_overview">本版概况</string>
+    <string name="topics">帖子</string>
+    <string name="classics">回味经典</string>
+    
+    <string name="error">呃，出错了-_-，信息：%1$s，原因：%2$s</string>
+    <string name="error_reason_not_fount">呃，未能收集足够的错误信息</string>
+    <string name="last_update_hine">最后更新于</string>
+    <string name="reply_and_click_times">%1$d评论 / %2$d点击</string>
+    <string name="user_statistics1">经验：%1$d - 发帖：%2$d - 灌水：%3$d</string>
+    <string name="user_statistics2">职务：%1$s / 加入时间：%2$s / 西大币：%3$d / 性别：%4$s</string>
+    <string name="view_replies">查看评论</string>
+    <string name="user_icon">%1$s 的头像</string>
+    <string name="send_reply">come on, say something ^_^</string>
+    <string name="view_reply">查看评论</string>
+    <string name="reply">回复 %1$s </string>
+    <string name="reply_hint">对ta说点什么吧^-^</string>
+    <string name="confirm">确定</string>
+    <string name="cancel">取消</string>
+    <string name="share">分享</string>
+    <string name="back_home">回到首页</string>
+    <string name="quit">退出</string>
+    <string name="network_down">亲，你的网络不给力啊-_-</string>
+    
+    <string name="master">斑竹：%1$s</string>
+    <string name="money_per_topic">每发表一篇帖子获得的西大币：%1$s</string>
+    <string name="money_per_reply">每回复一篇帖子获得的西大币：%1$s</string>
+    <string name="exp_per_topic">每发表一篇帖子获得的经验值：%1$s</string>
+    <string name="exp_per_reply">每回复一篇帖子获得的经验值：%1$s</string>
+    <string name="total_topics_count">本版块所有帖子数：%1$s</string>
+    <string name="fantasy_count">本版块精华贴数：%1$s</string>
+    <string name="hot">是否属于当前主打板块：%1$s</string>
+    
+    <string name="user_info">查看用户信息</string>
+    
+    <string name="man">汉纸一条</string>
+    <string name="woman">妹纸一枚</string>
+    <string name="yes">是</string>
+    <string name="no">否</string> 
+    <string name="click">点击</string>
+    <string name="reply">回复</string>
+    
+    <!-- user specific -->
+    <string name="current_and_max_power">当前体力  %1$d\n最大体力  %2$d</string>
+    <string name="sex_and_qq">%1$s\nQQ %2$s</string>
+    <string name="desc"></string>
+    <string name="exp_and_xdb">经验值  %1$d\n西大币  %2$d</string>
+    <string name="nick"></string>
+    <string name="title_and_register_time">%1$s加入时间  %2$s</string>
+    <string name="honors">荣誉  %1$s</string>
+    <string name="statistics">发帖数  %1$d\n灌水数  %2$d\n精华帖  %3$d</string>
+    <string name="no_desc">这家伙太懒了，啥都懒得写-_-</string>
+    <string name="no_honor">这家伙还没有获得一项荣誉呃-_-</string>
+    <string name="no_title">Ta还没有头衔-.-</string>
+    <!--  -->
+    
+    <string name="fetching">努力加载ing</string>
+    <string name="updates_count">共有%1$d条更新！</string>
+    <string name="fetchs_count">加载了%1$d条！</string>
+    
+    <string name="title_hint">帖子标题？</string>
+    <string name="content_hint">输入帖子内容^_^</string>
 </resources>

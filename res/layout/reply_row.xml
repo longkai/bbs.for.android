@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp">
+    
+	<ImageView
+	    android:id="@+id/user_icon"
+	    android:maxWidth="40dp"
+	    android:maxHeight="40dp"
+	    android:contentDescription="@string/user_icon"
+	    android:src="@drawable/face"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content" />
+	
+	<TextView
+	    android:id="@+id/user_nick"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="@string/hello_world"
+	    android:textSize="18sp"
+	    android:textColor="@color/info"
+	    android:paddingLeft="5dp"
+	    android:paddingRight="5dp"
+	    android:layout_toRightOf="@id/user_icon" />
+	
+	<TextView
+	    android:id="@android:id/text1"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:textSize="13sp"
+	    android:text="1"
+		android:layout_alignParentRight="true"
+		android:layout_alignParentTop="true"
+	    android:gravity="right|center_vertical"
+	    android:textColor="@color/warning"
+	    android:layout_toRightOf="@id/user_nick" />
+	
+	<!-- <WebView
+	    android:id="@+id/content"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@id/user_nick"
+	    android:layout_toRightOf="@id/user_icon"
+	    android:paddingLeft="5dp"
+	    android:paddingTop="5dp" /> -->
+	 
+	<TextView
+	    android:id="@+id/content"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@id/user_nick"
+	    android:layout_toRightOf="@id/user_icon"
+	    android:autoLink="all"
+	    android:paddingLeft="5dp"
+	    android:paddingTop="5dp" />
+	
+	<TextView
+	    android:id="@+id/from"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@id/content"
+	    android:layout_alignRight="@android:id/text1"
+	    android:paddingRight="5dp"
+	    android:textColor="@color/success"
+	    android:textSize="13sp"
+	    android:text="@string/from"
+	    android:gravity="right" />
+	
+	<TextView
+	    android:id="@+id/post_time"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="@string/hello_world"
+	    android:textColor="@color/muted"
+	    android:textSize="13sp"
+	    android:paddingRight="10dp"
+	    android:layout_alignBottom="@id/from"
+	    android:layout_toLeftOf="@id/from" />
+    
+</RelativeLayout>

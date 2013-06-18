@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <item
+        android:id="@+id/view_replies"
+        android:icon="@drawable/social_reply_all"
+        android:showAsAction="always"
+        android:title="@string/send_reply" />
+    
+    <item
+        android:id="@+id/share"
+        android:icon="@drawable/social_share"
+        android:showAsAction="never"
+        android:title="@string/share"
+        android:actionProviderClass="android.widget.ShareActionProvoder" />
+    
+    <item
+        android:id="@+id/back_home"
+        android:showAsAction="never"
+        android:title="@string/back_home" />
+    
+    <item
+        android:id="@+id/quit"
+        android:showAsAction="never"
+        android:title="@string/quit" />
+
+</menu>

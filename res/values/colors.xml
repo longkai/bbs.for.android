@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="muted">#999999</color>
+    <color name="primary">#0044cc</color>
+    <color name="warning">#c09853</color>
+    <color name="error">#bd362f</color>
+    <color name="info">#2f96b4</color>
+    <color name="success">#51a351</color>
+    
+    <color name="pager">#8899cc00</color>
+    <color name="pager_title">#ffbd2e</color>
+    
+    <color name="white">#fff</color>
+</resources>
